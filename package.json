@@ -1,0 +1,21 @@
+{
+  "name": "holybase",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.4.3",
+    "@prisma/client": "^6.5.0",
+    "better-auth": "^1.2.5",
+    "hono": "^4.7.5",
+    "lru-cache": "^11.1.0",
+    "openai": "^4.91.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prisma": "^6.5.0"
+  }
+}
